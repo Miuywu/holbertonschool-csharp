@@ -71,3 +71,16 @@
 0x00-csharp-hello_world/5-print_float/obj/5-print_float.csproj.nuget.g.targets
 0x00-csharp-hello_world/5-print_float/obj/project.assets.json
 global.json
+0x00-csharp-hello_world/5-print_float/bin/Debug/netcoreapp2.1/5-print_float.deps.json
+0x00-csharp-hello_world/5-print_float/bin/Debug/netcoreapp2.1/5-print_float.dll
+0x00-csharp-hello_world/5-print_float/bin/Debug/netcoreapp2.1/5-print_float.pdb
+0x00-csharp-hello_world/5-print_float/bin/Debug/netcoreapp2.1/5-print_float.runtimeconfig.dev.json
+0x00-csharp-hello_world/5-print_float/bin/Debug/netcoreapp2.1/5-print_float.runtimeconfig.json
+0x00-csharp-hello_world/5-print_float/obj/Debug/netcoreapp2.1/5-print_float.AssemblyInfo.cs
+0x00-csharp-hello_world/5-print_float/obj/Debug/netcoreapp2.1/5-print_float.AssemblyInfoInputs.cache
+0x00-csharp-hello_world/5-print_float/obj/Debug/netcoreapp2.1/5-print_float.assets.cache
+0x00-csharp-hello_world/5-print_float/obj/Debug/netcoreapp2.1/5-print_float.csproj.CoreCompileInputs.cache
+0x00-csharp-hello_world/5-print_float/obj/Debug/netcoreapp2.1/5-print_float.csproj.FileListAbsolute.txt
+0x00-csharp-hello_world/5-print_float/obj/Debug/netcoreapp2.1/5-print_float.csprojAssemblyReference.cache
+0x00-csharp-hello_world/5-print_float/obj/Debug/netcoreapp2.1/5-print_float.dll
+0x00-csharp-hello_world/5-print_float/obj/Debug/netcoreapp2.1/5-print_float.pdb
