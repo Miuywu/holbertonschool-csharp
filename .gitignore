@@ -59,3 +59,15 @@
 0x00-csharp-hello_world/4-print_integer/obj/Debug/netcoreapp3.1/4-print_integer.dll
 0x00-csharp-hello_world/4-print_integer/obj/Debug/netcoreapp3.1/4-print_integer.exe
 0x00-csharp-hello_world/4-print_integer/obj/Debug/netcoreapp3.1/4-print_integer.pdb
+0x00-csharp-hello_world/4-print_integer/obj/Debug/netcoreapp2.1/4-print_integer.AssemblyInfo.cs
+0x00-csharp-hello_world/4-print_integer/obj/Debug/netcoreapp2.1/4-print_integer.AssemblyInfoInputs.cache
+0x00-csharp-hello_world/4-print_integer/obj/Debug/netcoreapp2.1/4-print_integer.assets.cache
+0x00-csharp-hello_world/4-print_integer/obj/Debug/netcoreapp2.1/4-print_integer.csprojAssemblyReference.cache
+0x00-csharp-hello_world/5-print_float/5-print_float.csproj
+0x00-csharp-hello_world/5-print_float/Program.cs
+0x00-csharp-hello_world/5-print_float/obj/5-print_float.csproj.nuget.cache
+0x00-csharp-hello_world/5-print_float/obj/5-print_float.csproj.nuget.dgspec.json
+0x00-csharp-hello_world/5-print_float/obj/5-print_float.csproj.nuget.g.props
+0x00-csharp-hello_world/5-print_float/obj/5-print_float.csproj.nuget.g.targets
+0x00-csharp-hello_world/5-print_float/obj/project.assets.json
+global.json
