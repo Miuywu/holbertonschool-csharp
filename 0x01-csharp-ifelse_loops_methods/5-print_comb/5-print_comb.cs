@@ -13,7 +13,7 @@ namespace _5_print_comb
                 if (i != 99)
                     d = ", ";
                 else
-                    d = ", \n";
+                    d = "\n";
                 Console.Write(d);
             }
         }
