@@ -6,7 +6,7 @@ namespace _6_print_comb2
     {
         static void Main(string[] args)
         {
-            string d = "";
+            string d = "\n";
             for (char i = '0'; i <= '9'; i++)
             {
                 char b = i++;
@@ -20,7 +20,7 @@ namespace _6_print_comb2
                         d = ", ";
                     else
                     {
-                        d = "\n";
+                        Console.Write("\n");
                         return;
                     }
                     Console.Write(d);
