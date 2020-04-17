@@ -18,9 +18,8 @@ class Array
             Console.Write("{0}", ele);
             if (ele != ara[ara.Length - 1])
                 Console.Write(" ");
-            else
-                Console.Write("\n");
         }
+        Console.Write("\n");
         return ara;
     }
 }
