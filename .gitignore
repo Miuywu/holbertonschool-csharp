@@ -445,3 +445,5 @@ global.json
 0x01-csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/netcoreapp2.1/12-fizzbuzz.csprojAssemblyReference.cache
 0x01-csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/netcoreapp2.1/12-fizzbuzz.dll
 0x01-csharp-ifelse_loops_methods/12-fizzbuzz/obj/Debug/netcoreapp2.1/12-fizzbuzz.pdb
+0x01-csharp-ifelse_loops_methods/7-islower/.vscode/launch.json
+0x01-csharp-ifelse_loops_methods/7-islower/.vscode/tasks.json
