@@ -9,7 +9,7 @@ class Array
             Console.WriteLine();
             return;
         }
-        for (int a = array.Length - 1; a > 0; a--)
+        for (int a = array.Length - 1; a >= 0; a--)
         {
             if (a != array.Length - 1)
                 Console.Write(" ");
