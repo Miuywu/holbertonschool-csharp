@@ -16,6 +16,6 @@ class LList
             n = myLList.First.Value;
             myLList.RemoveFirst();
         }
-        return val;
+        return n;
     }
 }
