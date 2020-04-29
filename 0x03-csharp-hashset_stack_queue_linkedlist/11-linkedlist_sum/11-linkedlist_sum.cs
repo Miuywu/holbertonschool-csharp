@@ -9,7 +9,7 @@ class LList
 
         foreach (int b in myLList)
         {
-            a += b
+            a += b;
         }
 
         return a;
