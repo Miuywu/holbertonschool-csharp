@@ -10,6 +10,7 @@ class LList
         foreach (int b in myLList)
         {
             a += b
+        }
 
         return a;
     }
