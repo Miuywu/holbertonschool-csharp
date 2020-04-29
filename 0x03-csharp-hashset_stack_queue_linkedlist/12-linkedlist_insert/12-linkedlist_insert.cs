@@ -5,7 +5,7 @@ class LList
 {
     public static LinkedListNode<int> Insert(LinkedList<int> myLList, int n)
     {
-		for (LinkedListNode<int> N = myLList.First; N != null; cur = cur.Next)
+		for (LinkedListNode<int> N = myLList.First; N != null; N = N.Next)
 		{
 			if (n < N.Value)
 			{
