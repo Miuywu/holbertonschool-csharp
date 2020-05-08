@@ -7,7 +7,7 @@ class Animal
 
 }
 
-/// <summary>gets a dog./summary>
+/// <summary>gets a dog.</summary>
 class Dog : Animal
 {
 
