@@ -20,7 +20,7 @@ class Obj
         }
 
         Console.WriteLine("{0} Methods:", objType.Name);
-        foreach (MethodInfo method in m
+        foreach (MethodInfo method in m)
         {
             Console.WriteLine(method.Name);
         }
