@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-/// <summary>type functions.</summary>
+/// <summary>type methods.</summary>
 class Obj
 {
-    /// <summary> displays properties and methods.</summary>
+    /// <summary>displays properties and methods.</summary>
     /// <param name="myObj">The obj.</param>
     public static void Print(object myObj)
     {
         Type t = myObj.GetType();
-        PropertyInfo[] p = objType.GetProperties();
-        MethodInfo[] m = objType.GetMethods();
+        PropertyInfo[] p = t.GetProperties();
+        MethodInfo[] m = t.GetMethods();
 
         Console.WriteLine("{0} Properties:", t.Name);
         foreach (PropertyInfo property in p)
