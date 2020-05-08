@@ -13,13 +13,13 @@ class Obj
         PropertyInfo[] p = objType.GetProperties();
         MethodInfo[] m = objType.GetMethods();
 
-        Console.WriteLine("{0} Properties:", objType.Name);
+        Console.WriteLine("{0} Properties:", t.Name);
         foreach (PropertyInfo property in p)
         {
             Console.WriteLine(property.Name);
         }
 
-        Console.WriteLine("{0} Methods:", objType.Name);
+        Console.WriteLine("{0} Methods:", t.Name);
         foreach (MethodInfo method in m)
         {
             Console.WriteLine(method.Name);
