@@ -58,7 +58,6 @@ class Rectangle : Shape
             }
         }
     }
-}
 
     /// <summary>new area of the Rectangle.</summary>
     /// <returns>new area.</returns>
