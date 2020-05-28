@@ -13,7 +13,7 @@ class MatrixMath
 			for (int a = 0; a < matrix1.GetLength(0); a++)
 				for (int b = 0; b < matrix2.GetLength(1); b++)
 					for (int c = 0; c < matrix1.GetLength(1); c++)
-						result[i, j] += matrix1[i, k] * matrix2[k, j];
+						result[a, b] += matrix1[a, c] * matrix2[c, b];
 			return result;
 		}
 		return new double[,] {{-1}};
