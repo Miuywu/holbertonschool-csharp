@@ -1,105 +1,95 @@
 ﻿using System;
 
-/// <summary>gets a shape.</summary>
+///<summary>Shapes</summary>
 class Shape
 {
-    /// <summary>gets area.</summary>
-    /// <returns>area.</returns>
-    public virtual int Area()
-    {
-        throw new NotImplementedException("Area() is not implemented");
-    }
+	//error method is not modified
+	public virtual int Area()
+	{
+		throw new System.NotImplementedException("Area() is not implemented");
+	}
 }
 
-/// <summary>Rectangle.</summary>
+///<summary>Class Rectangle</summary>
 class Rectangle : Shape
 {
-    private int width;
-    private int height;
+	private int width;
+	private int height;
 
-    /// <summary>Gets/sets width.</summary>
-    /// <value>set value.</value>
-    public int Width
-    {
-        get
-        {
-            return width;
-        }
-        set
-        {
-            if (value >= 0)
-            {
-                width = value;
-            }
-            else
-            {
-                throw new ArgumentException("Width must be greater than or equal to 0");
-            }
-        }
-    }
+	//width
+	public int Width
+	{
+		get
+		{
+			return width;
+		}
+		set
+		{
+			if (value < 0)
+			{
+				throw new ArgumentException("Width must be greater than or equal to 0");
+			}
+			width = value;
+		}
+	}
 
-    /// <summary>Gets/sets height.</summary>
-    /// <value>set value.</value>
-    public int Height
-    {
-        get
-        {
-            return height;
-        }
-        set
-        {
-            if (value >= 0)
-            {
-                height = value;
-            }
-            else
-            {
-                throw new ArgumentException("Height must be greater than or equal to 0");
-            }
-        }
-    }
+	//height
+	public int Height
+	{
+		get
+		{
+			return height;
+		}
+		set
+		{
+			if (value < 0)
+			{
+				throw new ArgumentException("Height must be greater than or equal to 0");
+			}
+			height = value;
+		}
+	}
 
-    /// <summary>new area of the Rectangle.</summary>
-    /// <returns>new area.</returns>
-    public new int Area()
-    {
-        return Height * Width;
-    }
+	//return Area
+	public new int Area()
+	{
+		return width * height;
+	}
 
-    /// <summary>new string representation of the Rectangle.</summary>
-    /// <returns>new string representation.</returns>
-    public override string ToString()
-    {
-        return String.Format("[Rectangle] {0} / {1}", Width, Height); 
-    }
+	//overide string method
+	public override string ToString()
+	{
+		return String.Format("[Rectangle] {0} / {1}", width, height);
+	}
 }
 
 
-/// <summary>square.</summary>
+///<summary>Class Rectangle</summary>
 class Square : Rectangle
 {
-    private int size;
+	private int size;
 
-    /// <summary>Gets/sets size.</summary>
-    /// <value>set value.</value>
-    public int Size
-    {
-        get
-        {
-            return size;
-        }
-        set
-        {
-            if (value >= 0)
-            {
-                size = value;
-                Height = value;
-                Width = value;
-            }
-            else
-            {
-                throw new ArgumentException("Size must be greater than or equal to 0");
-            }
-        }
-    }
+	//size of width and height
+	public int Size
+	{
+		get
+		{
+			return size;
+		}
+		set
+		{
+			if (value < 0)
+			{
+				throw new ArgumentException("Size must be greater than or equal to 0");
+			}
+			size = value;
+			Height = value;
+			Width = value;
+		}
+	}
+
+	public override string ToString()
+	{
+		return String.Format("[Square] {0} / {0}", size);
+	}
 }
