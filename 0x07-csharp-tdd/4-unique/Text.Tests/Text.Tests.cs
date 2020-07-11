@@ -2,62 +2,55 @@ using NUnit.Framework;
 
 namespace Text.Tests
 {
-	///<summary>checking for string test</summary>
-	[TestFixture]
-	public class StrTests
-	{
-		///<summary>checking for normal operation</summary>
-		[Test]
-		public void Test1()
-		{
-			string s = "aaabaa";
+    [TestFixture]
+    /// <summary>Tests Alz</summary>
+    public class Tests
+    {
+        [Test]
+        public void xfour()
+        {
+            string s = "ababc";
+            
+            int result = Str.UniqueChar(s);
 
-			int output = Str.UniqueChar(s);
+            Assert.AreEqual(4, result);
+        }
+        [Test]
+        public void xempty()
+        {
+            string s = "";
+            
+            int result = Str.UniqueChar(s);
 
-			Assert.AreEqual(3, output);
-		}
+            Assert.AreEqual(-1, result);
+        }
 
-		///<summary>checking if all character is consecutive</summary>
-		[Test]
-		public void Test2()
-		{
-			string s = "aaaaaaa";
+        [Test]
+        public void xone()
+        {
+            string s = "d";
+            
+            int result = Str.UniqueChar(s);
 
-			int output = Str.UniqueChar(s);
+            Assert.AreEqual(0, result);
+        }
+        [Test]
+        public void xnone()
+        {
+            string s = "ddggttrrffttffddgg";
+            
+            int result = Str.UniqueChar(s);
 
-			Assert.AreEqual(-1, output);
-		}
+            Assert.AreEqual(-1, result);
+        }
+        [Test]
+        public void xnull()
+        {
+            string s = null;
+            
+            int result = Str.UniqueChar(s);
 
-		///<summary>check if string is none</summary>
-		[Test]
-		public void Test3()
-		{
-			string s = "";
-
-			int output = Str.UniqueChar(s);
-
-			Assert.AreEqual(-1, output);
-		}
-
-		///<summary>check if string is null</summary>
-		[Test]
-		public void Test4()
-		{
-			string s = null;
-
-			int output = Str.UniqueChar(s);
-
-			Assert.AreEqual(-1, output);
-		}
-
-		[Test]
-		public void Tes5()
-		{
-			string s = "ab";
-
-			int output = Str.UniqueChar(s);
-
-			Assert.AreEqual(1, output);
-		}
-	}
+            Assert.AreEqual(-1, result);
+        }
+    }
 }
