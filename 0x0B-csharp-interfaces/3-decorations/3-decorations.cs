@@ -32,10 +32,11 @@ interface ICollectable
 
 class Door : Base, IInteractive
 {
-	public Door(string na = "Door")
+	public Door(string name = "Door")
 	{
-		this.name = na;
+		this.name = name;
 	}
+
 	public void Interact()
 	{
 		Console.WriteLine("You try to open the {0}. It's locked.", this.name);
@@ -47,15 +48,15 @@ class Decoration : Base, IInteractive, IBreakable
 	public bool isQuestItem;
 	public int durability { get; set; }
 
-	public Decoration(string na = "Decoration", int dura = 1, bool iQ = false)
+	public Decoration(string name = "Decoration", int durability = 1, bool isQuestItem = false)
 	{
-		if (dura < 0)
+		if (durability < 0)
 		{
 			throw new Exception("Durability must be greater than 0");
 		}
-		this.name = na;
-		this.durability = dura;
-		this.isQuestItem = iQ;
+		this.name = name;
+		this.durability = durability;
+		this.isQuestItem = isQuestItem;
 	}
 	public void Interact()
 	{
@@ -63,7 +64,7 @@ class Decoration : Base, IInteractive, IBreakable
 		{
 			Console.WriteLine("The {0} has been broken.", this.name);
 		}
-		else if (iQ)
+		else if (isQuestItem)
 		{
 			Console.WriteLine("You look at the {0}. There's a key inside.", this.name);
 		}
