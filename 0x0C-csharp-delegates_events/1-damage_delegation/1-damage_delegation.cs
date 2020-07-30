@@ -27,9 +27,9 @@ public class Player
 		this.hp = this.maxHp;
 	}
 	/// <summary>
-	/// Delegate modify HP.
+	/// modify hp.
 	/// </summary>
-	/// <param name="amt">Delta HP.</param>
+	/// <param name="amt">delta hp.</param>
 	delegate void CalculateHealth(float amt);
 	/// <summary>
 	/// Prints hp.
